@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body 
+{
+  background-image:-webkit-gradient(linear, left top, right bottom,
+  color-stop(22%, skyblue),
+  color-stop(27%, pink),
+  color-stop(78%, yellow) );
+}
+@keyframes Animi
+{
+  0% {background:red; right:0px; top:0px}
+  20% {background:blue; right:250px; top:250px;}
+  40% {background:red; right:0px; top:500px;}
+  60% {background:green; right:500px; top:0px;}
+  80% {background:blue; right:250px; top:250px;}
+  100% {background:green; right:500px; top:500px;}
+}
+div 
+{
+  position: absolute;
+  border:2px dashed ;
+  border-radius:80px;
+  height:100px;
+  width:100px;
+  background-color:coral;
+  animation:Animi 10s linear 5s infinite;
+}
+
+</style>
+</head>
+<body>
+<div>  </div>
+<body/>
+</html>
